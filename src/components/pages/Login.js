@@ -15,7 +15,7 @@ const Login = () => {
 
 	return (
 		<div className="container margin-top">
-			{user.name ? (
+			{user ? (
 				<div>
 					<h1>{t('hi')} <span style={{color: 'red'}}>{user.name}</span> {t('how')}</h1>
 					<h3>{t('y_email')} {user.email}</h3>
