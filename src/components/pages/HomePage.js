@@ -7,22 +7,16 @@ const HomePage = () => {
 	const { t } = useTranslation();
 	const [ user, setUser ] = useContext(UserContext);
 
-	const changeLanguage = (lan) => {
-		i18n.changeLanguage(lan);
-	};
+	useEffect(() => {
 
-	useEffect(
-		() => {
-			const userData = window.localStorage.getItem('user');
-			setUser(JSON.parse(userData));
-			return () => {
-				if(user) {
-					changeLanguage(user.language);
-				}
+		const userData = window.localStorage.getItem('user');
+		setUser(JSON.parse(userData));
+		return () => {
+			if (userData) {
+				i18n.changeLanguage(userData.language);
 			}
-		},
-		[]
-	);
+		};
+	}, [ setUser]);
 
 	console.log(user);
 	return (
