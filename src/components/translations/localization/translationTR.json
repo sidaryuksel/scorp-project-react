@@ -1,0 +1,33 @@
+{
+    "logo": "Sidar",
+	"home": "Ana Sayfa",
+    "home_enterance": "Ana Sayfaya hoşgeldiniz:",
+    "home_paragraph":
+        "Türkçe anasayfa paragrafı. lorAnim labore non non nostrud ipsum occaecat aliqua anim qui minim tempor nisi cillum. Consectetur nostrud voluptate est sunt do aliquip aliquip sunt tempor enim. Excepteur ex ut voluptate laborum. Ex labore in consectetur qui sint Lorem culpa excepteur consectetur est enim elit nisi do. Cillum cupidatat reprehenderit fugiat Lorem anim laborum aliqua ullamco. Proident id in mollit eiusmod. Velit commodo excepteur in consequat aliqua aute aute. Consectetur excepteur ad adipisicing esse veniam proident aute velit. Elit aliquip ex velit voluptate adipisicing elit consectetur est.",
+    "full": "Tam isim:",
+    "email": "E-posta:",
+    "y_email": "Sizin eposta adresiniz:",
+    "phone": "Telefon:",
+    "pass": "Şifre:",
+    "language": "Dil:",
+    "l_selection": "Dil seçeneğiniz:",
+    "login": "Giriş",
+    "contact": "İletişim",
+    "enter_info": "Lütfen bilgilerinizi giriniz!",
+    "hi": "Merhaba ",
+    "how": " nasılsınız bugün?",
+    "footer": "Alt Bilgi",
+    "footer_p":
+        "Tüm hakları Sidar Yüksel A.Ş.'e aittir, 2021.",
+    "submit": "Onayla",
+    "cancel": "İptal",
+    "enter_name": "isim giriniz",
+    "enter_email": "geçerli email giriniz",
+    "enter_password": "şifre giriniz",
+    "enter_info2": "Bilgilerinizi giriniz",
+    "select_country": "Ülke Seçiniz",
+    "help": "Size nasıl yardımcı olabiliriz?",
+    "send": "Gönder",
+    "thank_you": "Bilgilerinizi girdiğiniz için teşekkür ederiz. Bütün bilgileriliniz CONSOLE'da mevcuttur, sevgiler."
+
+}

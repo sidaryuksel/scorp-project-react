@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(5, 79, 148);
+  color: wheat;
+}
+
+.logo{
+  font-size: 24px;
+}
+
+.navbar-expand-md {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.home-margin{
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.icon-margin{
+  margin: 0px 0.3rem 0.3rem 3rem;
+}
+
+.footer-style{
+  margin-top: 20%;
+  text-align: center;
+  color:rgb(6, 95, 86)
+}
+
+.margin-top{
+  margin-top: 70px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+.hamburger {
+	height: 2em;
+	width: 2em;
+}
+
+.close {
+	height: 1.7em;
+	width: 1.7em;
+}
+
+.center{
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mobile-menu-icon{
+  display: none;
+}
+
+.home,
+.login,
+.contact{
+  text-decoration: none;
+  color: rgb(200, 253, 253);
+  font-size: 15px;
+  padding: 3px 3px;
+  margin: 0 2px;
+  cursor: pointer;
+
+}
+
+@media screen and (max-width: 500px) {
+  .display-mobile{
+    display: block;
+    margin-left: -1.5em;
+  }
+
+  .logo{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .nav-links-mobile{
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: rgb(5, 79, 148);
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+
+  .home,
+  .login,
+  .contact{
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+    border:none;
+  }
+
+  .mobile-menu-icon{
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    color:white;
+    background-color: rgb(5, 79, 148);
+    border: none;
+    outline: none;
+    top: 15px;
+    right: 25px;
+  }
+}

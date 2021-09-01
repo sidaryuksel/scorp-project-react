@@ -1,0 +1,32 @@
+{
+	"logo": "Sidar",
+	"home": "Home Page",
+	"home_enterance": "Welcome to the page:",
+	"home_paragraph":
+		"English hompage paragraph. LoremPariatur laborum ea amet elit aute culpa proident ex sit elit esse. Nostrud veniam nisi elit non labore do sunt duis et. Est reprehenderit ullamco anim consectetur. Eu culpa reprehenderit occaecat eu officia qui aliqua qui. Ad minim et officia incididunt magna veniam sunt consectetur Lorem culpa eu. Ad elit eu cupidatat officia culpa duis laborum aute. Exercitation fugiat duis elit ullamco reprehenderit do enim anim anim qui elit officia velit eiusmod. Anim esse ullamco culpa enim ullamco amet eiusmod. Dolore excepteur cillum voluptate et dolore in ea. Qui commodo aliquip tempor ea nostrud consectetur minim duis magna cillum irure eu est et. Et velit excepteur magna occaecat adipisicing. Incididunt exercitation elit ad nulla quis in voluptate ex excepteur. Dolore ea exercitation reprehenderit anim commodo ut dolore deserunt Lorem eiusmod fugiat do dolor magna. Enim tempor excepteur sint ad aliqua excepteur dolore veniam incididunt dolore ex. Laborum eu magna enim proident quis quis ut adipisicing elit excepteur magna. Lorem deserunt eu sunt incididunt sunt proident culpa ullamco amet.",
+	"full": "Full Name:",
+	"email": "Email:",
+	"y_email": "Your email address:",
+	"phone": "Phone:",
+	"pass": "Password:",
+	"language": "Language:",
+	"l_selection": "Language selection:",
+	"login": "Login",
+	"contact": "Contact Us",
+	"enter_info": "Please enter your information!",
+	"hi": "Hi ",
+	"how":" how are you today?",
+	"footer": "Footer",
+	"footer_p":
+		"Copyright 2021 belongs to Sidar Yüksel corporation.",
+	"submit": "Submit",
+	"cancel": "Cancel",
+	"enter_name": "please enter name",
+	"enter_email": "please enter valid email",
+	"enter_password": "please enter password",
+	"enter_info2": "Enter your information",
+	"select_country": "Select Country",
+	"help": "How can we help you?",
+	"send": "Send",
+	"thank_you": "Thank you for submiting your information. All informatin can be reached out on CONSOLE, your sincerely!."
+}
